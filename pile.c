@@ -29,6 +29,7 @@ void empiler(Pile* pile, int valeur){
 
 int depiler(Pile* pile){
 
+	assert(pile->sommet != NULL);
 	int valeur = pile->sommet->valeur;
 	Cellule* nouveau_sommet = pile->sommet->suivant;
 	free(pile->sommet);

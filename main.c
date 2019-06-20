@@ -7,7 +7,6 @@ int main(){
 
 	printf("On empile ...\n");
 
-
 	for(int i = 1; i < 34; i+=3){
 
 		empiler(pile, i);
