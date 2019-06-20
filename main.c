@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 int main(){
-	Pile* pile = init();
+	Pile* pile = initPile();
 
 	printf("On empile ...\n");
 

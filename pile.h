@@ -13,7 +13,7 @@ typedef struct {
 	int taille;
 } Pile;
 
-Pile* init(void);
+Pile* initPile(void);
 void empiler(Pile*, int);
 int depiler(Pile* pile);
 void detruire(Pile*);

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <assert.h>
 
-Pile* init(){
+Pile* initPile(){
 
 	Pile* pile = malloc(sizeof(Pile));
 	pile->sommet = NULL;
