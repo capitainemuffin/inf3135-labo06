@@ -14,10 +14,8 @@ typedef struct {
 } Pile;
 
 Pile* init(void);
-
 void empiler(Pile*, int);
 int depiler(Pile* pile);
-
 void detruire(Pile*);
 
 #endif 		

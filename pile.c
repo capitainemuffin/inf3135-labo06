@@ -33,7 +33,6 @@ int depiler(Pile* pile){
 	Cellule* nouveau_sommet = pile->sommet->suivant;
 	free(pile->sommet);
 	pile->sommet = nouveau_sommet;
-	
 	pile->taille--;
 
 	return valeur;
@@ -42,7 +41,8 @@ int depiler(Pile* pile){
 
 void detruire(Pile* pile){
 
-	while(pile->sommet != NULL) depiler(pile);	
+	while(pile->sommet != NULL) depiler(pile);
+	free(pile);
 }
 
 
